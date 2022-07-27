@@ -1,0 +1,10 @@
+{
+ "type": "record", 
+ "name": "io.confluent.developer.spring.model.Weather",
+ "doc": "A weather reading.",
+ "fields": [
+     {"name": "station", "type": "string", "order": "ignore"},
+     {"name": "time", "type": "long"},
+     {"name": "temp", "type": "int"}
+ ]
+}
