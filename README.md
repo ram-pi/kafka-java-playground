@@ -66,4 +66,4 @@ Your `pom.xml` need to contain also
 If you want to check which data are sent to your c3 instance run:  `control-center-console-consumer PATH_TO_C3_PROPERTIES/control-center.properties --topic _confluent-monitoring --from-beginning`.
 
 
-You can also run some tests with `kafka-producer-perf-test` or `kcat`, in this case you should download librdkafka interceptor library (take a look to [https://docs.confluent.io/5.4.0/control-center/installation/clients.html#librdkafka-based-clients](https://docs.confluent.io/5.4.0/control-center/installation/clients.html#librdkafka-based-clients))
+You can also run some tests with `kafka-producer-perf-test` or `kcat`, in this case you should download librdkafka interceptor library (take a look to [https://docs.confluent.io/platform/current/control-center/installation/clients.html#librdkafka-based-clients](https://docs.confluent.io/platform/current/control-center/installation/clients.html#librdkafka-based-clients))
